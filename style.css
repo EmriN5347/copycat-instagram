@@ -1,8 +1,11 @@
+
 .phone{
  padding-top: 70px;
  height: 650px;
+ float:right;
  margin: 10px;
- float: left;
+ padding-left:160px;
+
     
 }
 body{
@@ -18,20 +21,18 @@ body{
     width: 350px;
     margin: 10px;
     padding: 40px;
-    float: right;
-
 }
 .instagram-logo{
-    margin-right:55px ;
+    margin:15px auto ;
 }
 .info{
     font-weight:600px;
-    line-height: 20px;
-    margin: 0 40px 10px;
-    font-size:18px;
-    color: #999;
-    text-align: center;
-    font-family: roboto;
+    line-height: 28px;
+    font-size: 17px;
+    color:#999;
+    
+    
+    
 }
 button img{
     height: 18px !important;
@@ -48,7 +49,6 @@ button{
     font-size: 13px!important;
     color: #999;
     font-weight: 600;
-    text-align:center;
 }
 .or: :before{
     content: '';
@@ -81,17 +81,28 @@ button{
 }
 ::placeholder{
     color: #999!important;
-    
- 
+
 }
-
-
-
-
-
-
-
-
-
-
-
+.btn{
+    margin:12px auto;
+    padding:2px!important;
+    font-weight:600!important;
+}
+.btn-primary{
+    background-color:#3897f0!important;
+    border: 1px solid #3897f0!important;
+    
+}
+.terms{
+    line-height: 18px;
+    font-size: 14px;
+    color:#999;
+    margin: 5px 20px;
+}
+.right-column-login{
+    background:#fff;
+    border: 1px solid #e6e6e6;
+    width: 350px;
+    margin: 10px;
+    padding: 20px;
+}
